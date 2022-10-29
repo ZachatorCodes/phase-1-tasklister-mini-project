@@ -66,3 +66,7 @@ form input {
 ::placeholder {
   text-align: center;
 }
+
+select {
+  text-align: center;
+}

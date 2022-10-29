@@ -12,6 +12,12 @@
       <label id="task-label" for="new-task-description">Enter Task Description Below:</label>
       <br>
       <input type="text" id="new-task-description" name="new-task-description" placeholder="Description">
+      <select required>
+        <option value="" disabled selected>Task Priority</option>
+        <option value="low-priority">Low Priority</option>
+        <option value="medium-priority">Medium Priority</option>
+        <option value="high-priority">High Priority</option>
+      </select>
       <input type="submit" value="Create New Task">
     </form>
     <div id="list">
